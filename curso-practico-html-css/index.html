@@ -4,57 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clon de Google</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
-        <section class="header__section">
-            <nav class="header__nav">
-                <ul class="header__ul">
-                    <li class="header__li"><a href="#" class="header__a">Gmail</a></li>
-                    <li class="header__li"><a href="#" class="header__a">Imágenes</a></li>
-                    <li class="header__li"><a href="#" class="header__a">--o--</a></li>
-                    <li class="header__li"><a href="#" class="header__a">Profile</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__li">
+                    <a href="#" class="header__a">Gmail</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__a">Imágenes</a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__a header__a--bckground">Hola
+                    </a>
+                </li>
+                <li class="header__li">
+                    <a href="#" class="header__a header__a--img">
+                        <img src="./img/perfil.jpg" alt="boton del menu" title="Perfil" class="header__img">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <h1 class="main__h1">
-            <img src="" alt="" class="main__img">
+            <img src="./img/googlelogo_color_272x92dp.png" alt="Google logo" class="main__img">
         </h1>
         <form action="" class="main__form">
             <div class="main__div">
                 <span class="main__span">layout Img</span>
                 <label for="" class="main__label" id="buscador">
-                    <input type="text" name="" id="buscador" class="main__input" >
+                    <input type="text" name="" id="buscador" class="main__input" placeholder="Buscar en Google o escribir una URL">
                 </label>
-                <span class="main__span">
-                    <a href="" class="main__a">Img1</a>
-                    <a href="" class="main__a">Img2</a>
-                </span>
+                <a href="#" class="main__a main__a--icons"><span class="main__span main__span--icons"></span></a>
             </div>
         </form>
-        <button class="main__button"></button>
-        <button class="main__button"></button>
-        <p class="p">Google offered in:<a href="#" class="a"> Español (Latinoamérica)</a></p>
+        <section class="main__section">
+            <button class="main__button">Google Search</button>
+            <button class="main__button">I'm Feeling Lucky</button>
+        </section>
+        <p class="main__p">Google offered in:<a href="#" class="main__a"> Español (Latinoamérica)</a></p>
     </main>
     <footer class="footer">
         <!-- <section class="section"> -->
             <ul class="ul">
-                <li class="ul__li">Publicidad</li>
-                <li class="ul__li">Negocios</li>
-                <li class="ul__li">Acerca de</li>
-                <li class="ul__li">Cómo funciona la Búsqueda</li>
+                <li class="ul__li"><a href="#" alt="Link a Publicidad" class="ul__a">Publicidad</a></li>
+                <li class="ul__li"><a href="#" alt="Link a Negocios" class="ul__a">Negocios</a></li>
+                <li class="ul__li"><a href="#" alt="Link a Acerca de" class="ul__a">Acerca de</a></li>
+                <li class="ul__li"><a href="#" alt="Link a Como funciona la búsqueda" class="ul__a">Cómo funciona la búsqueda</a></li>
             </ul>
         <!-- </section> -->
         <!-- <section class="section"> -->
-            <ul class="ul ul--rightalign">
-                <li class="ul__li">Privacidad</li>
-                <li class="ul__li">Condiciones</li>
-                <li class="ul__li">Preferencias</li>
+            <ul class="ul">
+                <li class="ul__li"><a href="#" alt="link a Privacidad" class="ul__a">Privacidad</a></li>
+                <li class="ul__li"><a href="#" alt="link a Condiciones" class="ul__a">Condiciones</a></li>
+                <li class="ul__li"><a href="#" alt="link a Preferencias" class="ul__a">Preferencias</a></li>
             </ul>
         <!-- </section> -->
     </footer>
