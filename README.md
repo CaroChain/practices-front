@@ -1,2 +1,2 @@
 # practices-front
-practices for front end
+Google Clone website
